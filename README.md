@@ -1,6 +1,6 @@
-HR Attrition Analysis
+**HR Attrition Analysis**
 
-1. Introduction
+**1. Introduction**
    In the business world, companies often face the challenge of retaining talented
    employees. One of the most pressing issues is the increasing rate of employee
    turnover, commonly known as HR attrition. Turnover can have a significant impact on
@@ -10,7 +10,7 @@ HR Attrition Analysis
    factors contributing to attrition and implementing effective retention strategies is
    crucial for maintaining a competitive edge and ensuring.
 
-2. Objectives of the Analysis/Problem Statement
+**2. Objectives of the Analysis/Problem Statement**
    1. Understand Current Turnover Rates: Gain a comprehensive understanding of
       the current employee turnover rate and analyze the demographic distribution of
       attrition by age, gender, education, department, and job role.
@@ -20,11 +20,11 @@ HR Attrition Analysis
       hikes), and benefit factors (stock option levels), to uncover patterns and
       correlations that drive higher attrition rates.
 
-3. Scope
+**3. Scope**
    Analysis of employee attrition patterns Study of factors like Age, Salary, Job Role, YearsAtCompany
    Identification of high-risk attrition groups Data from IBM HR dataset only
 
-4. Methodology
+**4. Methodology**
    1. Import Packages
    2. Load the dataset
       Data Cleaning:
@@ -32,13 +32,13 @@ HR Attrition Analysis
    4. Check data Shape and data types
    5. Determine the outliers
 
-5. Exploratory Analysis
-   1. Attrition Rate:The attrition rate measures the percentage of employees who leave the company in a given period of time. It is usually calculated within a year and is expressed as a percentage of the total number of employees.
+**5. Exploratory Analysis**
+   1. Attrition Rate:The attrition rate measures the percentage of employees who leave the company in a given period of time. It is usually calculated within a          year and is expressed as a percentage of the total number of employees.
    2. Find Average of Tenure
       Aver age tenure: The average tenure measures the average number of years an
       employee stays with the company before leaving. It can provide insight into workforce
       stability and employee satisfaction within the organization.
-6. Key Findings
+**6. Key Findings**
    1. Attrition Rate
       Attrition rate: The attrition rate measures the percentage of employees who leave the
       company in a given period of time. It is usually calculated within a year and is
@@ -49,13 +49,13 @@ HR Attrition Analysis
       83.9% employees stayed
       16.1% employees left
    2. Find Average of Tenure
-      Average tenure: The average tenure measures the average number of years an employee stays with the company before leaving. It can provide insight into workforce stability and employee satisfaction within the organization.The average tenure of employees before they decided to leave was 7.01 years. With this average tenure, it can be concluded that many employees feel comfortable and have been with the company for a long time.
+      Average tenure: The average tenure measures the average number of years an employee stays with the company before leaving. It can provide insight into             workforce stability and employee satisfaction within the organization.The average tenure of employees before they decided to leave was 7.01 years. With this       average tenure, it can be concluded that many employees feel comfortable and have been with the company for a long time.
 
       Attrition may be higher in the 28–35 age group (career transition phase)
       Sales department might show higher attrition due to target pressure
       Gender-based attrition patterns can be analyzed further
 
-7. Recommandations
+**7. Recommandations**
    Attrition reduction strategies should focus on low-salary employees, high-overtime roles, and the Sales department. Targeted interventions such as compensation restructuring, workload management, and structured career progression can significantly lower the 16.1% attrition rate.
 
 🔹 1. Improve Compensation for Low Salary Employees
@@ -112,7 +112,7 @@ Often attrition is emotional, not just financial.
 -Gender diversity needs improvement
 -Workforce structure suggests operational focus on innovation rather than administrative roles
 
-8. Conclusion
+**8. Conclusion**
    The HR Attrition Analysis of the IBM HR dataset reveals that the overall attrition rate stands at 16.1%, indicating that while 83.9% of employees remain with the organization, a significant proportion exit each year. The average tenure of 7.01 years reflects moderate workforce stability but also highlights mid-career attrition trends.
 
 The boxplot analysis of Monthly Income demonstrates that employees who left the company had a significantly lower median monthly income compared to those who stayed. This confirms that compensation level is a major driver of attrition and strongly supports the finding that low-salary employees experience nearly 2x higher attrition rates.
@@ -129,3 +129,4 @@ Although most employees report “Better” work-life balance, relatively few ra
 Overall, attrition within the organization is influenced by a combination of compensation structure, salary growth rate, equity benefits, workload pressure, departmental stress, career progression opportunities, and employee engagement levels. By implementing targeted retention strategies — including competitive pay benchmarking, performance-linked increments, expanded stock option benefits, workload optimization, structured career development, and enhanced employee well-being programs — the organization can significantly reduce attrition and improve long-term workforce stability.
 
 This comprehensive, data-driven analysis equips HR leadership with strategic insights to design effective retention frameworks, optimize talent management, and support sustainable organizational growth.
+
